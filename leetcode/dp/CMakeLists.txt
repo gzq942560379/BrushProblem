@@ -15,3 +15,8 @@ add_executable(zdjx 最大矩形.cpp)
 add_executable(jczfc 交错字符串.cpp)
 add_executable(btzxl 不同子序列.cpp)
 
+add_executable(mmgpdzzsq3 买卖股票的最佳时期3.cpp)
+add_executable(mmgpdzzsq4 买卖股票的最佳时期4.cpp)
+
+add_executable(pjzds 拼接最大数.cpp)
+
