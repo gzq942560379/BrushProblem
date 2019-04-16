@@ -2,6 +2,7 @@
 // Created by guozhuoqiang on 2019-03-29.
 //
 #include <iostream>
+#include <algorithm>
 #include <vector>
 
 using namespace std;

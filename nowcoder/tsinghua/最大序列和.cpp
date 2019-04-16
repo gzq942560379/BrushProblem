@@ -2,7 +2,7 @@
 // Created by guozhuoqiang on 2019-03-11.
 //
 #include <iostream>
-
+#include <algorithm>
 using namespace std;
 
 const int maxN = 1000000;

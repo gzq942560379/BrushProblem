@@ -3,7 +3,7 @@
 //
 
 #include <iostream>
-
+#include <algorithm>
 const int INF = 1000001;
 const int NINF = -1000001;
 

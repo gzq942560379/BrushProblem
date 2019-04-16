@@ -9,7 +9,7 @@
 #include <iostream>
 #include <list>
 #include <queue>
-
+#include <algorithm>
 using namespace std;
 
 const int NINF = -1 << 30;

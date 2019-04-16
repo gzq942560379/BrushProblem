@@ -3,7 +3,7 @@
 //
 
 #include <algorithm>
-
+#include <algorithm>
 //state 往往为全局变量
 
 using namespace std;

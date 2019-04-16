@@ -2,7 +2,7 @@
 // Created by guozhuoqiang on 2019-03-15.
 //
 
-
+#include <algorithm>
 const int maxN = 100000;
 
 int n;

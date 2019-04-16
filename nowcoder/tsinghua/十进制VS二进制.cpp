@@ -3,7 +3,7 @@
 //
 #include <iostream>
 #include <cstring>
-
+#include <algorithm>
 //大整数与整数乘除加法
 
 using namespace std;

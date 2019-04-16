@@ -1,4 +1,5 @@
 #include<iostream>
+#include <algorithm>
 #include<queue>
 
 //某个坐标在某个时间段是危险的  3维bfs搜索

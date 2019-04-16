@@ -2,7 +2,7 @@
 // Created by guozhuoqiang on 2019-03-24.
 //
 #include <iostream>
-
+#include <algorithm>
 #include <string>
 
 using namespace std;

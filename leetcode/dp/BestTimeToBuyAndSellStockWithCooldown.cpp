@@ -2,8 +2,8 @@
 // Created by guozhuoqiang on 2019-03-23.
 //
 #include <iostream>
-
 #include <vector>
+#include <algorithm>
 
 using namespace std;
 
@@ -26,10 +26,8 @@ public:
 };
 
 int main() {
-
     Solution s;
     vector<int> v{1, 2, 3, 0, 2};
     cout << s.maxProfit(v);
-
     return 0;
 }

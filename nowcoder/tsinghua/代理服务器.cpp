@@ -10,7 +10,7 @@
  */
 #include <cstdio>
 #include <cstring>
-
+#include <algorithm>
 using namespace std;
 const unsigned int maxIP = 0xffffffff;
 

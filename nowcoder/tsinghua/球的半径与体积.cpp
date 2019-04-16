@@ -3,7 +3,7 @@
 //
 #include <cstdio>
 #include <cmath>
-
+#include <algorithm>
 using namespace std;
 
 double a[3];

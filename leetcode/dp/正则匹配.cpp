@@ -3,7 +3,7 @@
 //
 // leetcode 不给过 不知道什么问题
 #include <iostream>
-
+#include <algorithm>
 #include <string>
 #include <vector>
 

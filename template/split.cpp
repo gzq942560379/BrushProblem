@@ -12,7 +12,7 @@
 #include <iostream>
 #include <string>
 #include <regex>
-
+#include <algorithm>
 using namespace std;
 
 const int maxL = 81;

@@ -6,7 +6,7 @@
  */
 #include <cstring>
 #include <iostream>
-
+#include <algorithm>
 int m;  // origin
 int n;  // to
 

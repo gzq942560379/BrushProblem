@@ -2,6 +2,7 @@
 // Created by guozhuoqiang on 2019-03-16.
 //
 #include <iostream>
+#include <algorithm>
 #include <string>
 #include <regex>
 

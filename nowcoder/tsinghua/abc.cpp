@@ -2,7 +2,7 @@
 // Created by guozhuoqiang on 2019-03-11.
 //
 #include <iostream>
-
+#include <algorithm>
 
 int main(){
     for(int a =1;a<10;a++){

@@ -2,7 +2,7 @@
 // Created by guozhuoqiang on 2019-03-12.
 //
 #include <iostream>
-
+#include <algorithm>
 using namespace std;
 const int maxCL = 1000000000;
 const int maxN = 100000000;

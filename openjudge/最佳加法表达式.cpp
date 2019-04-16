@@ -10,7 +10,7 @@
  */
 #include <iostream>
 #include <string>
-
+#include <algorithm>
 using namespace std;
 
 int dp[51][60];

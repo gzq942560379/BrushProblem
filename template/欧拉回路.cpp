@@ -4,7 +4,7 @@
 #include <iostream>
 #include <set>
 #include <stack>
-
+#include <algorithm>
 #define rep(i,s,e) for(int i = s;i < e;i++)
 using namespace std;
 

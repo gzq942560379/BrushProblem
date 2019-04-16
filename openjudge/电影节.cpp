@@ -3,7 +3,7 @@
 //
 #include <iostream>
 #include <algorithm>
-
+#include <algorithm>
 using namespace std;
 
 const int maxN = 101;

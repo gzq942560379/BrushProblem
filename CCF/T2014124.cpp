@@ -1,4 +1,5 @@
 #include <iostream>
+#include <algorithm>
 #include <list>
 
 // prim 求最小生成树权值和

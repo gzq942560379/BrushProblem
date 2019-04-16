@@ -2,7 +2,7 @@
 // Created by guozhuoqiang on 2019-03-10.
 //
 #include <iostream>
-
+#include <algorithm>
 using namespace std;
 
 //const int maxN = 100001;  //sqrt(maxN)  = 31622

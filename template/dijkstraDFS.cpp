@@ -1,6 +1,6 @@
 #include<iostream>
 #include<list>
-
+#include <algorithm>
 #define rep(i, s, e) for(int i = (s);i<(e);i++)
 
 //dijkstra dfs 得到所有最短路 dfs 遍历所有最短路 统计第二指标得到最优解

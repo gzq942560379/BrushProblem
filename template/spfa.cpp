@@ -4,7 +4,7 @@
 #include <queue>
 #include <list>
 #include <iostream>
-
+#include <algorithm>
 using namespace std;
 
 const int NINF = -100000;

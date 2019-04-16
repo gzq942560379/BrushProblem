@@ -6,7 +6,7 @@
  * 线段树非递归实现 标记持久化
  */
 #include <iostream>
-
+#include <algorithm>
 using namespace std;
 
 const int maxN = 1001;

@@ -2,7 +2,7 @@
 // Created by gzq on 4/2/19.
 //
 #include <iostream>
-
+#include <algorithm>
 #include <vector>
 #include <climits>
 

@@ -7,7 +7,7 @@
 //世纪闰年:能被400整除的为世纪闰年。（如2000年是世纪闰年，1900年不是世纪闰年）；
 
 #include <iostream>
-
+#include <algorithm>
 using namespace std;
 
 bool isLeapYear(int year){

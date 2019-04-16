@@ -2,7 +2,7 @@
 // Created by guozhuoqiang on 2019-03-15.
 //
 #include <iostream>
-
+#include <algorithm>
 using namespace std;
 
 bool isLeapYear(int year) {
