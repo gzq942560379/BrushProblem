@@ -19,4 +19,6 @@ add_executable(mmgpdzzsq3 买卖股票的最佳时期3.cpp)
 add_executable(mmgpdzzsq4 买卖股票的最佳时期4.cpp)
 
 add_executable(pjzds 拼接最大数.cpp)
+add_executable(elstwxfwt 俄罗斯套娃信封问题.cpp)
 
+add_executable(jxqubcgkdzdzh 矩形区域不超过k的最大数值和.cpp)
