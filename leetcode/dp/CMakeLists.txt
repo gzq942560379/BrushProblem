@@ -31,3 +31,8 @@ add_executable(tjcfgs 统计重复个数.cpp)
 add_executable(ljc 连接词.cpp)
 add_executable(zyzl 自由之路.cpp)
 add_executable(cjxyj 超级洗衣机.cpp)
+add_executable(xscqjl 学生出勤记录II.cpp)
+
+add_executable(bbhlq1dfzzs 不含连续1的非负整数.cpp)
+
+add_executable(kgnxdsz K个逆序对数组.cpp)

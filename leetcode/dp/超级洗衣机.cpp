@@ -4,6 +4,8 @@
 #include <vector>
 #include <iostream>
 #include <algorithm>
+#include <numeric>
+
 using namespace std;
 
 // TODO Ã»¿´¶®¡£¡£¡£
@@ -17,10 +19,10 @@ public:
 		int average = total / n;
 		int mx = 0,bias = 0;
 		for (auto num : machines) {
-			bias += num - aver;
-			mx = max(mx, max(num - aver, abs(bias)));
+			bias += num - average;
+			mx = max(mx, max(num - average, abs(bias)));
 		}
-		return cnt;
+		return mx;
 	}
 };
 
