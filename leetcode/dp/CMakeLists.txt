@@ -29,3 +29,5 @@ add_executable(dcslhf2 等差数列划分II.cpp)
 add_executable(tjcfgs 统计重复个数.cpp)
 
 add_executable(ljc 连接词.cpp)
+add_executable(zyzl 自由之路.cpp)
+add_executable(cjxyj 超级洗衣机.cpp)
