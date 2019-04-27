@@ -24,3 +24,5 @@ add_executable(elstwxfwt 俄罗斯套娃信封问题.cpp)
 add_executable(jxqubcgkdzdzh 矩形区域不超过k的最大数值和.cpp)
 add_executable(qwgh 青蛙过河.cpp)
 add_executable(fgszzdz 分割数组的最大值.cpp)
+
+add_executable(dcslhf2 等差数列划分II.cpp)
