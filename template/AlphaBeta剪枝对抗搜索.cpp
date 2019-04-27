@@ -13,7 +13,7 @@ struct State{
 };
 
 bool IsEnd(const State& s){
-
+	return 0;
 }
 
 int GetVal(const State& s){

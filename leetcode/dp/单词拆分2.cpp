@@ -5,7 +5,7 @@
 #include <algorithm>
 #include <vector>
 #include <string>
-
+#include <iterator>
 using namespace std;
 
 class Solution {

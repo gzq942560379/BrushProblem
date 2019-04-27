@@ -26,3 +26,6 @@ add_executable(qwgh 青蛙过河.cpp)
 add_executable(fgszzdz 分割数组的最大值.cpp)
 
 add_executable(dcslhf2 等差数列划分II.cpp)
+add_executable(tjcfgs 统计重复个数.cpp)
+
+add_executable(ljc 连接词.cpp)

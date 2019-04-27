@@ -33,7 +33,7 @@ struct Pattern {
 Pattern p[maxN];
 
 bool match(vector<string> &pt, vector<string> &s) {
-
+	return 0;
 }
 
 string convertToRegex(string t) {
