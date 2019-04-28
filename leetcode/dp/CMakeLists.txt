@@ -1,4 +1,4 @@
-add_executable(tyyx 跳跃游戏.cpp)
+﻿add_executable(tyyx 跳跃游戏.cpp)
 add_executable(btlj 不同路径.cpp)
 add_executable(lqdh 零钱兑换.cpp)
 add_executable(zcsszxl 最长上升子序列.cpp)
@@ -28,11 +28,14 @@ add_executable(fgszzdz 分割数组的最大值.cpp)
 add_executable(dcslhf2 等差数列划分II.cpp)
 add_executable(tjcfgs 统计重复个数.cpp)
 
-add_executable(ljc 连接词.cpp)
-add_executable(zyzl 自由之路.cpp)
 add_executable(cjxyj 超级洗衣机.cpp)
 add_executable(xscqjl 学生出勤记录II.cpp)
 
 add_executable(bbhlq1dfzzs 不含连续1的非负整数.cpp)
 
-add_executable(kgnxdsz K个逆序对数组.cpp)
+add_executable(ljc 连接词.cpp)
+add_executable(zyzl 自由之路.cpp)
+add_executable(kdnxds K对逆序对数组.cpp)
+
+add_executable(jmff2 解码方法2.cpp)
+add_executable(qgddyj 奇怪的打印机.cpp)

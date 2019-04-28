@@ -1,4 +1,4 @@
-//
+﻿//
 // Created by guozhuoqiang on 2019-04-27.
 //
 #include<iostream>
@@ -32,7 +32,7 @@ public:
 		cur->isWord = true;
 	}
 
-	bool checkIsConcatenatedWordInDict(const string& word, const int startIndex,const int count) {
+	bool checkIsConcatenatedWordInDict(const string& word, const int startIndex, const int count) {
 		if (startIndex == word.size())
 			return count > 1;
 		Node * cur = &root;

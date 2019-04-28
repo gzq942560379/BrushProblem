@@ -1,4 +1,4 @@
-//
+﻿//
 // Created by guozhuoqiang on 2019-04-27.
 //
 
@@ -12,17 +12,15 @@ using namespace std;
 
 class Solution {
 public:
-
 	const int M = 1000000007;
-
 	// O(n*k) 累积和优化
 	int kInversePairs(int n, int k) {
 		vector<vector<int>> dp(n + 1, vector<int>(k + 1, 0));
-		for (int j = 0; j <= k; j++)      dp[0][j] = 0;
-		for (int i = 1; i <= n; i++)      dp[i][0] = 1;
+		for (int j = 0; j <= k; j++) dp[0][j] = 0;
+		for (int i = 1; i <= n; i++) dp[i][0] = 1;
 		for (int i = 1; i <= n; i++) {
 			for (int j = 1; j <= k; j++) {
-				int val = (dp[i-1][j] + M - (j >= i ? dp[i-1][j-i] : 0)) % M;
+				int val = (dp[i - 1][j] + M - (j >= i ? dp[i - 1][j - i] : 0)) % M;
 				dp[i][j] = (dp[i][j - 1] + val) % M;
 			}
 		}
