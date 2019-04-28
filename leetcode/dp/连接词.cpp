@@ -9,13 +9,13 @@
 
 using namespace std;
 
-// ×ÖµäÊ÷ÊµÏÖ
+// å­—å…¸æ ‘å®ç°
 
 class WordTree {
 	class Node {
 	public:
 		bool isWord{ false };
-		//Ò²¿ÉÒÔÓÃÊı×é ¹şÏ£±íÊµÏÖ
+		//ä¹Ÿå¯ä»¥ç”¨æ•°ç»„ å“ˆå¸Œè¡¨å®ç°
 		map<char, Node> children;
 	};
 

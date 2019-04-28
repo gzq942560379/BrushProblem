@@ -15,12 +15,12 @@ public:
 			return 0;
 		}
 		vector<vector<pair<int, int>>> dp(m, vector<pair<int,int>>());
-		//µ¹ÅÅ±íÓÅ»¯
+		//å€’æ’è¡¨ä¼˜åŒ–
 		vector<vector<int>> invertTable(26, vector<int>());
 		for (int i = 0; i < n; i++) {
 			invertTable[ring[i] - 'a'].push_back(i);
 		}
-		// i==0 µÄÇé¿ö
+		// i==0 çš„æƒ…å†µ
 		for (int index : invertTable[key[0]-'a']) {
 			dp[0].push_back(make_pair(index,min(index,n-index) + 1));
 		}

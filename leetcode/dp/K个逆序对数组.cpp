@@ -15,7 +15,7 @@ public:
 
 	const int M = 1000000007;
 
-	// O(n*k) ÀÛ»ıºÍÓÅ»¯
+	// O(n*k) ç´¯ç§¯å’Œä¼˜åŒ–
 	int kInversePairs(int n, int k) {
 		vector<vector<int>> dp(n + 1, vector<int>(k + 1, 0));
 		for (int j = 0; j <= k; j++)      dp[0][j] = 0;
@@ -38,8 +38,8 @@ public:
 		for (int i = 1; i <= n; i++)      dp[i][0] = 1;
 		for (int i = 1; i <= n; i++) {
 			for (int j = 1; j <= k; j++) {
-				//pÎªÎª²¹ÆëjÄæĞò¶ÔÒªĞÂÔöµÄÄæĞò¶ÔÊı ËùÒÔÓĞ j>p
-				//Ìí¼ÓÒ»¸öi×î¶à¼Ói-1¸öÄæĞò¶Ô
+				//pä¸ºä¸ºè¡¥é½jé€†åºå¯¹è¦æ–°å¢çš„é€†åºå¯¹æ•° æ‰€ä»¥æœ‰ j>p
+				//æ·»åŠ ä¸€ä¸ªiæœ€å¤šåŠ i-1ä¸ªé€†åºå¯¹
 				for (int p = 0; p <= min(j, i - 1); p++)
 					dp[i][j] = (dp[i][j] + dp[i - 1][j - p]) % M;
 			}

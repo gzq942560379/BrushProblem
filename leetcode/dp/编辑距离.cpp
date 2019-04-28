@@ -29,14 +29,10 @@ public:
         }
         return dp[m][n];
     }
-
 };
 
 int main() {
-
     Solution s;
-
     cout << s.minDistance("intention", "execution");
-
     return 0;
 }
