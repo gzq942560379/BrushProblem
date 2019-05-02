@@ -18,12 +18,14 @@ public:
             dp[i] = new bool[n];
         }
         for (int i = 0; i < n; i++)dp[i][i] = true;
-        for (int i = 1; i < n; i++)
-            if (s[i - 1] == s[i])
-                dp[i - 1][i] = true;
+		for (int i = 1; i < n; i++)
+			if (s[i - 1] == s[i])
+				dp[i - 1][i] = true;
+			else
+				dp[i - 1][i] = false;
 
         for (int l = 3; l <= n; l++) {
-            for (int i = 0; i + l < n; ++i) {
+            for (int i = 0; i + l <= n; ++i) {
                 int j = i + l - 1;
                 dp[i][j] = dp[i + 1][j - 1] && s[i] == s[j];
             }

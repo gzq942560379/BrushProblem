@@ -39,3 +39,13 @@ add_executable(kdnxds K对逆序对数组.cpp)
 
 add_executable(jmff2 解码方法2.cpp)
 add_executable(qgddyj 奇怪的打印机.cpp)
+
+add_executable(sgwcdzszzdh 三个无重叠子数组的最大和.cpp)
+
+add_executable(tzpg 贴纸拼词.cpp)
+
+add_executable(zyt1 摘樱桃_自顶向下.cpp)
+add_executable(zyt2 摘樱桃_自底向上.cpp)
+
+add_executable(btlj2 不同路径2.cpp)
+
