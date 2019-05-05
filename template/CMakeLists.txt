@@ -33,3 +33,5 @@ add_executable(jdjsq 简单计算器.cpp)
 
 
 add_executable(efca 二分查找.cpp)
+
+add_executable(kma KMA.cpp)
