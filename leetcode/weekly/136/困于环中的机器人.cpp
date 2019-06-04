@@ -15,7 +15,6 @@ public:
         int x = 0, y = 0, z = 0;
         instructions = instructions + instructions;
         instructions = instructions + instructions;
-        cout << instructions << endl;
         for (char ch:instructions) {
             if (ch == 'G') {
                 x += dx[z];
