@@ -48,49 +48,6 @@ public:
 		return ans;
 	}
 
-	/*
-	w[i] = sum of nums[i...i+k-1]
-	dp[j][i]  表示前i个w,j个w的最大和 之间距离为 k-1
-	pre[j][j] 记录路径
-	时间复杂度O(k*n^2)
-	vector<int> maxSumOfThreeSubarrays(vector<int>& nums, int k) {
-		vector<int> w(nums.size()-k+1,0);
-		for (int i = 0; i < k; i++) { w[0] += nums[i]; }
-		for (int i = 1; i < w.size(); i++) {
-			w[i] = w[i-1] + nums[k + i -1] - nums[i-1];
-		}
-		int n = w.size();
-		vector<vector<int>> dp(3+1,vector<int>(n));
-		vector<vector<int>> pre(3+1,vector<int>(n));
-		for (int i = 0; i < n; i++) dp[1][i] = w[i];
-		for (int j = 2; j <= 3; j++) {
-			for (int i = (j - 1) * k; i < n; i++) {
-				int temp = 0;
-				for (int p = (j - 2) * k; p <= i - k; p++) {
-					if (dp[j - 1][p] > temp) {
-						temp = dp[j - 1][p];
-						pre[j - 1][i] = p;
-					}	
-				}
-				dp[j][i] = temp + w[i];
-			}
-		}
-		int mxIndex = 0;
-		int mx = 0;
-		for (int i = 0; i < n; i++) {
-			if (dp[3][i] > mx) {
-				mx = dp[3][i];
-				mxIndex = i;
-			}
-		}
-		vector<int> result(3);
-		result[2] = mxIndex;
-		for (int i = 1; i >= 0; i--) {
-			result[i] = pre[i + 1][result[i + 1]];
-		}
-		return result;
-	}
-	*/
 };
 
 int main() {

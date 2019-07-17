@@ -16,8 +16,6 @@ add_executable(T2017093 T2017093.cpp)
 
 add_executable(T2017095 T2017095.cpp)
 
-add_executable(T2017123 T2017123.cpp)
-
 add_executable(T2018033 T2018033.cpp)
 
 add_executable(T2018093 T2018093.cpp)

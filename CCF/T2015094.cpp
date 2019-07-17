@@ -45,8 +45,8 @@ void negativeDFS(int u){
 
 void SCC(){
     rep(i,0,n)
-    if(!vis[i])
-        positiveDFS(i);
+        if(!vis[i])
+            positiveDFS(i);
 
     rep(i,0,n) {
         counter = 0;
